@@ -22,7 +22,7 @@ const frontendDir = path.resolve(__dirname, '../frontend');
 app.use(express.static(frontendDir));
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(frontendDir, 'central-estudos.html'));
+  res.sendFile(path.join(frontendDir, 'index.html'));
 });
 
 // ── Arquivos estáticos (uploads) ───────────────────────
